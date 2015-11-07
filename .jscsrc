@@ -13,5 +13,6 @@
   "disallowTrailingWhitespace": true,
   "requireLineFeedAtFileEnd": true,
   "validateIndentation": 2,
-  "validateQuoteMarks": "'"
+  "validateQuoteMarks": "'",
+  "disallowMultipleSpaces": {"allowEOLComments": true}
 }
