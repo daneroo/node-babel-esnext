@@ -1,4 +1,7 @@
-# Rewrite pocketscrape using Babel
+# Node - Babel - ESNext 
+Deomnstrate the usage patterns of transpiler (Babel) for a node project.
+
+Setup for development cycle of a node module, including setup for transpilation of ES2015 features, and perhaps some experimental feature of ES7, including module loading, testing and editor setup (Sublime).
 
 ## Usage
 
@@ -26,7 +29,7 @@
 -Use ES6/7 features
   - Arrow functions
   - Async/Await - with promises
--RsJS
+-RxJS
 
 ## Global Sublime setup
 
