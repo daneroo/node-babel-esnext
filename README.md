@@ -17,6 +17,7 @@ This setup is being done as of 2015-11-06, with node 4.2.1. Babel 6 has just com
 
 - Start using `redux-voting-server` example
 - Also look at: https://github.com/elierotenberg/es6-starterkit
+- [Lint like it's 2015](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48)
 
 ### Babel and node 4.x
 
