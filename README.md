@@ -1,9 +1,42 @@
 # Node - Babel - ESNext 
 Deomnstrate the usage patterns of transpiler (Babel) for a node project.
 
+*This setup is being done as of 2016, with node 6.2.2 and VSCode insiders (tabs finally)*  
+*This setup is being done as of 2015-11-06, with node 4.2.1. Babel 6 has just come out.*
+
+Objective/TODO:
+
++ Minimal setup!
++ VSCode setup
+- babel for async/await on node 6
+- es2015 for import
+- example of linting problems
+- example for fixAllErrors (VSCode eslint new feature)
+- example of inline hinting/disable/override rule
+- npm script targets (lint,watch) exclude gulp.
+- npm script targets (start,build,etc... think of docker and dev)
+- Is `.editorconfig` still needed?
+- Remove references to Sublime in this text.
+
+## Setup:
+ESlint/Babel/Formatting
+
 Setup for development cycle of a node module, including setup for transpilation of ES2015 features, and perhaps some experimental feature of ES7, including module loading, testing and editor setup (Sublime).
 
-This setup is being done as of 2015-11-06, with node 4.2.1. Babel 6 has just come out.
+### VSCode
+...  Also check for VSCode formatting compatibility with eslint code style checking
+- [Install ESlint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+### VSCode Project
+
+VSCode suggested and made a default `jsconfig.json` file.
+
+`compilerOptions.module: commonjs` shoud be revisited (`es6 | es2015`)
+
+### ESlint
+
+### Babel (with subdir)
+
 
 ## Usage
 
